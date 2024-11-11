@@ -84,7 +84,7 @@ Home Page
 Admin Dashboard
 ![Admin Dashboard](https://github.com/VarshaVenky/summer-camp-management/blob/master/assets/images/Adminhomepage.png)
 Camper Management
-
+![Camper Management](https://github.com/VarshaVenky/summer-camp-management/blob/master/assets/images/Camperenrollment.png)
 Future Enhancements
 Attendance Tracking: Add a system to track camper attendance daily.
 Payment Integration: Integrate online payment systems for fee management.
