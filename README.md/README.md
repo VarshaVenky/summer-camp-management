@@ -82,7 +82,7 @@ Home Page
 ![Home Page](https://github.com/VarshaVenky/summer-camp-management/blob/master/assets/images/Homepage.png)
 
 Admin Dashboard
-
+![Admin Dashboard](https://github.com/VarshaVenky/summer-camp-management/blob/master/assets/images/Adminhomepage.png)
 Camper Management
 
 Future Enhancements
