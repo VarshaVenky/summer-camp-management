@@ -79,7 +79,7 @@ Admin Dashboard:
 Administrators can manage campers, staff, activities, and fees through the Admin Dashboard.
 Screenshots
 Home Page
-![Home Page](assets/images/Homepage.png)
+![Home Page](https://github.com/VarshaVenky/summer-camp-management/blob/master/assets/images/Homepage.png)
 
 Admin Dashboard
 
