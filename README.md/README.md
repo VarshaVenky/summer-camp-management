@@ -89,7 +89,7 @@ Attendance Tracking: Add a system to track camper attendance daily.
 Payment Integration: Integrate online payment systems for fee management.
 Reporting System: Generate and export reports for administrative use.
 Contributors
-Varsha V. - varsha@example.com
+Varsha V. - varshavenkatesh3798@gmail.com
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
