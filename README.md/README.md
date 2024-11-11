@@ -79,8 +79,7 @@ Admin Dashboard:
 Administrators can manage campers, staff, activities, and fees through the Admin Dashboard.
 Screenshots
 Home Page
-![Home Page](summer-camp-management/assets/images
-/Homepage.png)
+![Home Page](summer-camp-management/assets/images/Homepage.png)
 Admin Dashboard
 
 Camper Management
