@@ -1,52 +1,58 @@
-Summer Camp Management System
+# Summer Camp Management System
 
-Table of Contents
-Overview
-Features
-Technologies Used
-Database Structure
-Setup and Installation
-Usage
-Screenshots
-Future Enhancements
-Contributors
-License
-Overview
-The Summer Camp Management System is a web-based application designed to streamline the operations of a summer camp. The system allows camp administrators to manage campers, staff, activities, and fees easily and efficiently. This project replaces traditional manual record-keeping with a structured database system and user-friendly interface, accessible to both staff and administrators.
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Database Structure](#database-structure)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Future Enhancements](#future-enhancements)
+- [Contributors](#contributors)
+- [License](#license)
 
-Features
-User Management: Register and authenticate campers, staff, and administrators.
-Campers Management: Admins can add, view, edit, and delete camper records.
-Staff Management: Manage staff details, including roles and salaries.
-Activities Management: Create and assign camp activities for campers.
-Fees Management: Manage fee records, including payment mode and installments.
-Admin Dashboard: An interface for administrators to manage camp operations and access important data.
-Technologies Used
-Frontend: HTML, CSS, JavaScript
-Backend: PHP
-Database: MySQL
-Server: Apache (via XAMPP or WAMP for local development)
-Database Structure
+## Overview
+The **Summer Camp Management System** is a web-based application designed to streamline the operations of a summer camp. The system allows camp administrators to manage campers, staff, activities, and fees easily and efficiently. This project replaces traditional manual record-keeping with a structured database system and user-friendly interface, accessible to both staff and administrators.
+
+## Features
+- **User Management**: Register and authenticate campers, staff, and administrators.
+- **Campers Management**: Admins can add, view, edit, and delete camper records.
+- **Staff Management**: Manage staff details, including roles and salaries.
+- **Activities Management**: Create and assign camp activities for campers.
+- **Fees Management**: Manage fee records, including payment mode and installments.
+- **Admin Dashboard**: An interface for administrators to manage camp operations and access important data.
+
+## Technologies Used
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: PHP
+- **Database**: MySQL
+- **Server**: Apache (via XAMPP or WAMP for local development)
+
+## Database Structure
 The database includes the following tables:
 
-users: Stores user credentials and roles.
-campers: Holds camper information such as name, age, gender, and assigned activities.
-staff: Contains staff information including salary and contact details.
-activities: Lists available camp activities with details.
-fees: Manages fee records with details like payment mode and installments.
-parents: Stores contact details of parents/guardians associated with campers.
-Refer to sql/database.sql for the full schema and sample data.
+- **users**: Stores user credentials and roles.
+- **campers**: Holds camper information such as name, age, gender, and assigned activities.
+- **staff**: Contains staff information including salary and contact details.
+- **activities**: Lists available camp activities with details.
+- **fees**: Manages fee records with details like payment mode and installments.
+- **parents**: Stores contact details of parents/guardians associated with campers.
 
-Setup and Installation
-Prerequisites
-XAMPP/WAMP: A local Apache server with PHP and MySQL.
-MySQL: For database management.
-Installation Steps
-Clone the Repository:
+Refer to `sql/database.sql` for the full schema and sample data.
 
-bash
-Copy code
-git clone https://github.com/yourusername/summer-camp-management.git
+## Setup and Installation
+
+### Prerequisites
+- **XAMPP/WAMP**: A local Apache server with PHP and MySQL.
+- **MySQL**: For database management.
+
+### Installation Steps
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/summer-camp-management.git
+
 Database Setup:
 
 Create a new MySQL database named summer_camp_management.
