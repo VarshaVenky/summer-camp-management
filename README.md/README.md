@@ -53,36 +53,40 @@ Refer to `sql/database.sql` for the full schema and sample data.
    ```bash
    git clone https://github.com/yourusername/summer-camp-management.git
 
-Database Setup:
+2. **Database Setup**:
 
-Create a new MySQL database named summer_camp_management.
-Import the SQL file provided (sql/database.sql) into your database.
-Configure Database Connection:
+- **Create a new MySQL database** named `summer_camp_management`.
+- **Import the SQL file** provided (`sql/database.sql`) into your database.
 
-Edit config/db.php and update the database connection details:
-php
-Copy code
+### Configure Database Connection
+
+Edit `config/db.php` and update the database connection details:
+
+``php
 $host = "localhost";
 $db_name = "summer_camp_management";
 $username = "root"; // MySQL username
 $password = "";      // MySQL password
-Run the Application:
 
-Place the project folder in your server’s root directory (htdocs for XAMPP).
-Open your browser and navigate to http://localhost/summer-camp-management/views/home.php.
-Usage
-Home Page:
+3. **Run the Application**
 
-Access the homepage at http://localhost/summer-camp-management/views/home.php.
-User Registration:
+1. **Place the project folder** in your server’s root directory (e.g., `htdocs` for XAMPP).
+2. **Open your browser** and navigate to [http://localhost/summer-camp-management/views/home.php](http://localhost/summer-camp-management/views/home.php).
 
-Campers, staff, and administrators can register by navigating to the Register page.
-Login:
+## Usage
 
-Users log in via login.php to access their respective dashboards.
-Admin Dashboard:
+### Home Page
+Access the homepage at [http://localhost/summer-camp-management/views/home.php](http://localhost/summer-camp-management/views/home.php).
 
-Administrators can manage campers, staff, activities, and fees through the Admin Dashboard.
+### User Registration
+Campers, staff, and administrators can register by navigating to the **Register** page.
+
+### Login
+Users log in via `login.php` to access their respective dashboards.
+
+### Admin Dashboard
+Administrators can manage campers, staff, activities, and fees through the **Admin Dashboard**.
+
 Screenshots
 Home Page
 ![Home Page](https://github.com/VarshaVenky/summer-camp-management/blob/master/assets/images/Homepage.png)
