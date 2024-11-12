@@ -110,6 +110,6 @@ Administrators can manage campers, staff, activities, and fees through the **Adm
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE]([LICENSE](https://github.com/VarshaVenky/summer-camp-management/blob/master/LICENSE/LICENSE.txt)) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/VarshaVenky/summer-camp-management/blob/master/LICENSE/LICENSE.txt) file for details.
 
 
