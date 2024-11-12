@@ -58,7 +58,7 @@ Refer to `sql/database.sql` for the full schema and sample data.
 - **Create a new MySQL database** named `summer_camp_management`.
 - **Import the SQL file** provided (`sql/database.sql`) into your database.
 
-### Configure Database Connection
+3. **Configure Database Connection**:
 
 Edit `config/db.php` and update the database connection details:
 
@@ -68,10 +68,10 @@ $db_name = "summer_camp_management";
 $username = "root"; // MySQL username
 $password = "";      // MySQL password
 
-3. **Run the Application**
+4. **Run the Application**
 
-1. **Place the project folder** in your server’s root directory (e.g., `htdocs` for XAMPP).
-2. **Open your browser** and navigate to [http://localhost/summer-camp-management/views/home.php](http://localhost/summer-camp-management/views/home.php).
+- **Place the project folder** in your server’s root directory (e.g., `htdocs` for XAMPP).
+- **Open your browser** and navigate to [http://localhost/summer-camp-management/views/home.php](http://localhost/summer-camp-management/views/home.php).
 
 ## Usage
 
@@ -87,20 +87,29 @@ Users log in via `login.php` to access their respective dashboards.
 ### Admin Dashboard
 Administrators can manage campers, staff, activities, and fees through the **Admin Dashboard**.
 
-Screenshots
-Home Page
+## Screenshots
+
+### Home Page
 ![Home Page](https://github.com/VarshaVenky/summer-camp-management/blob/master/assets/images/Homepage.png)
 
-Admin Dashboard
+### Admin Dashboard
 ![Admin Dashboard](https://github.com/VarshaVenky/summer-camp-management/blob/master/assets/images/Adminhomepage.png)
-Camper Management
+
+### Camper Management
 ![Camper Management](https://github.com/VarshaVenky/summer-camp-management/blob/master/assets/images/Camperenrollment.png)
-Future Enhancements
-Attendance Tracking: Add a system to track camper attendance daily.
-Payment Integration: Integrate online payment systems for fee management.
-Reporting System: Generate and export reports for administrative use.
-Contributors
-Varsha V. - varshavenkatesh3798@gmail.com
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Future Enhancements
+
+- **Attendance Tracking**: Add a system to track camper attendance daily.
+- **Payment Integration**: Integrate online payment systems for fee management.
+- **Reporting System**: Generate and export reports for administrative use.
+
+## Contributors
+
+- **Varsha V.** - [varshavenkatesh3798@gmail.com](mailto:varshavenkatesh3798@gmail.com)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
